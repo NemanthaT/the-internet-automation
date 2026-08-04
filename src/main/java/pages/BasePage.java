@@ -10,10 +10,7 @@ import utils.ConfigReader;
 import java.time.Duration;
 
 /**
- * Shared behaviour for all page objects: driver reference and explicit-wait
- * helpers. Every page class extends this instead of duplicating wait logic,
- * which is the whole point of POM — one place to fix a wait strategy, not one
- * per page.
+ * Shared behaviour for all page objects: driver reference and explicit-wait helpers.
  */
 public abstract class BasePage {
 
