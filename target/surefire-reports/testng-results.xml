@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-04T13:55:25 IST" name="TheInternetAutomationSuite" finished-at="2026-08-04T13:56:08 IST" duration-ms="43515">
+    <groups>
+    </groups>
+    <test started-at="2026-08-04T13:55:25 IST" name="CoreFlows" finished-at="2026-08-04T13:56:08 IST" duration-ms="43515">
+      <class name="tests.DynamicLoadingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DynamicLoadingTest@77fbd92c]" started-at="2026-08-04T13:55:57 IST" name="setUp" finished-at="2026-08-04T13:55:58 IST" duration-ms="1161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDynamicLoadingRevealsText()[pri:0, instance:tests.DynamicLoadingTest@77fbd92c]" started-at="2026-08-04T13:55:58 IST" name="testDynamicLoadingRevealsText" description="Start button reveals Hello World text after loading completes" finished-at="2026-08-04T13:56:08 IST" duration-ms="9788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDynamicLoadingRevealsText -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DynamicLoadingTest@77fbd92c]" started-at="2026-08-04T13:56:08 IST" name="tearDown" finished-at="2026-08-04T13:56:08 IST" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDynamicLoadingRevealsText status=SUCCESS method=DynamicLoadingTest.testDynamicLoadingRevealsText()[pri:0, instance:tests.DynamicLoadingTest@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DynamicLoadingTest -->
+      <class name="tests.CheckboxesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckboxesTest@1b7cc17c]" started-at="2026-08-04T13:55:43 IST" name="setUp" finished-at="2026-08-04T13:55:44 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testToggleCheckboxChangesState()[pri:0, instance:tests.CheckboxesTest@1b7cc17c]" started-at="2026-08-04T13:55:44 IST" name="testToggleCheckboxChangesState" description="Toggling checkbox 1 changes its state from unchecked to checked" finished-at="2026-08-04T13:55:50 IST" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToggleCheckboxChangesState -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckboxesTest@1b7cc17c]" started-at="2026-08-04T13:55:50 IST" name="tearDown" finished-at="2026-08-04T13:55:50 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testToggleCheckboxChangesState status=SUCCESS method=CheckboxesTest.testToggleCheckboxChangesState()[pri:0, instance:tests.CheckboxesTest@1b7cc17c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckboxesTest -->
+      <class name="tests.ValidLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ValidLoginTest@3e58a80e]" started-at="2026-08-04T13:55:25 IST" name="setUp" finished-at="2026-08-04T13:55:28 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLoginRedirectsToSecureArea()[pri:0, instance:tests.ValidLoginTest@3e58a80e]" started-at="2026-08-04T13:55:28 IST" name="testValidLoginRedirectsToSecureArea" description="User logs in with valid credentials and reaches the secure area" finished-at="2026-08-04T13:55:34 IST" duration-ms="6445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginRedirectsToSecureArea -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ValidLoginTest@3e58a80e]" started-at="2026-08-04T13:55:34 IST" name="tearDown" finished-at="2026-08-04T13:55:34 IST" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginRedirectsToSecureArea status=SUCCESS method=ValidLoginTest.testValidLoginRedirectsToSecureArea()[pri:0, instance:tests.ValidLoginTest@3e58a80e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ValidLoginTest -->
+      <class name="tests.DropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@59662a0b]" started-at="2026-08-04T13:55:50 IST" name="setUp" finished-at="2026-08-04T13:55:51 IST" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectOptionUpdatesDropdown()[pri:0, instance:tests.DropdownTest@59662a0b]" started-at="2026-08-04T13:55:51 IST" name="testSelectOptionUpdatesDropdown" description="Selecting Option 2 from the dropdown updates the selected value" finished-at="2026-08-04T13:55:57 IST" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOptionUpdatesDropdown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.DropdownTest@59662a0b]" started-at="2026-08-04T13:55:57 IST" name="tearDown" finished-at="2026-08-04T13:55:57 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectOptionUpdatesDropdown status=SUCCESS method=DropdownTest.testSelectOptionUpdatesDropdown()[pri:0, instance:tests.DropdownTest@59662a0b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DropdownTest -->
+      <class name="tests.InvalidLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InvalidLoginTest@4efbca5a]" started-at="2026-08-04T13:55:34 IST" name="setUp" finished-at="2026-08-04T13:55:36 IST" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginShowsErrorMessage()[pri:0, instance:tests.InvalidLoginTest@4efbca5a]" started-at="2026-08-04T13:55:36 IST" name="testInvalidLoginShowsErrorMessage" description="User attempts login with an invalid password and sees an error" finished-at="2026-08-04T13:55:43 IST" duration-ms="6827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginShowsErrorMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.InvalidLoginTest@4efbca5a]" started-at="2026-08-04T13:55:43 IST" name="tearDown" finished-at="2026-08-04T13:55:43 IST" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLoginShowsErrorMessage status=SUCCESS method=InvalidLoginTest.testInvalidLoginShowsErrorMessage()[pri:0, instance:tests.InvalidLoginTest@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.InvalidLoginTest -->
+    </test> <!-- CoreFlows -->
+  </suite> <!-- TheInternetAutomationSuite -->
+</testng-results>

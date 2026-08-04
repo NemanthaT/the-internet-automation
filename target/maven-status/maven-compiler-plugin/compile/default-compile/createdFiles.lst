@@ -1,0 +1,6 @@
+pages\BasePage.class
+pages\CheckboxesPage.class
+utils\ConfigReader.class
+pages\DropdownPage.class
+pages\DynamicLoadingPage.class
+pages\LoginPage.class

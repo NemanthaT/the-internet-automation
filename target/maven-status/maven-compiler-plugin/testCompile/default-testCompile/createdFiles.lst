@@ -1,0 +1,6 @@
+base\BaseTest.class
+tests\DropdownTest.class
+tests\DynamicLoadingTest.class
+tests\InvalidLoginTest.class
+tests\ValidLoginTest.class
+tests\CheckboxesTest.class
