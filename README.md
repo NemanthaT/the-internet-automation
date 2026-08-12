@@ -9,19 +9,21 @@ QA Automation take-home assignment. Target application: https://the-internet.her
 
 ## Project structure
 ```
-src/main/java/
-├── base/BaseTest.java        → WebDriver setup/teardown, screenshot-on-failure
-├── pages/                    → Page Object classes (one per site feature)
-│   ├── BasePage.java         → shared explicit-wait helpers
-│   ├── LoginPage.java
-│   ├── CheckboxesPage.java
-│   ├── DropdownPage.java
+src/test/java/ 
+├── base/ → Base test class 
+│   └── BaseTest.java → WebDriver setup/teardown, screenshot-on-failure 
+├── tests/ → TestNG test classes (one per scenario) src/test/resources/ 
+├── config.properties → base URL, wait timeout 
+└── testng.xml → suite definition 
+screenshots/ → auto-captured on test failure
+
+src/main/java/ 
+├── pages/ → Page Object classes (one per site feature) 
+│   ├── BasePage.java → shared explicit-wait helpers 
+│   ├── LoginPage.java 
+│   ├── CheckboxesPage.java 
+│   ├── DropdownPage.java 
 │   └── DynamicLoadingPage.java
-src/test/java/tests/          → TestNG test classes (one per scenario)
-src/test/resources/
-├── config.properties         → base URL, wait timeout
-└── testng.xml                → suite definition
-screenshots/                  → auto-captured on test failure
 ```
 
 ## Run the suite

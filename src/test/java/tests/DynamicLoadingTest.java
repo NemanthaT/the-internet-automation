@@ -8,9 +8,6 @@ import pages.DynamicLoadingPage;
 /**
  * TC05 - Clicking Start waits out the loading spinner and reveals the
  * "Hello World!" text. This is the scenario used for the debugging
- * challenge in the report — see AI_USAGE.md / report section 7 for the
- * root-cause writeup of the locator bug that was intentionally introduced
- * and then fixed here.
  */
 public class DynamicLoadingTest extends BaseTest {
 
